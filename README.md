@@ -1,6 +1,4 @@
-![](/Users/julianortega/Desktop/cerveza readme.jpeg)
-
-
+![beers](https://images.unsplash.com/photo-1436076863939-06870fe779c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80)
 
 # LUPULUS 🍻
 
@@ -87,4 +85,7 @@ https://trello.com/b/DDmfRjRV/julianortega-proyecto1
 
 #### GitHub Repo
 
-github repo link
+[https://github.com/julianortega35/Lupulus](https://github.com/julianortega35/Lupulus)
+
+
+
