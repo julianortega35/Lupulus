@@ -1,0 +1,255 @@
+* {
+   
+    font-family: roboto;
+    
+   
+}
+
+
+
+
+/* ESTILOS HOME*/
+
+
+.header-image {
+    background-image: url(./../imagenes/botellas.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 0;
+    width: 100%;
+    height: 35em;
+    position: relative;
+  
+    
+}
+
+.h1-home {
+    font-size:5rem;
+    color:#fcfaf8;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    
+    
+ 
+}
+
+.description {
+text-align: center;
+background-color: #FFFAF0;
+
+
+}
+
+.section3 {
+    text-align: center;
+    background-color: #FFFAF0;
+    
+    }
+
+
+.logo-div-home {
+        width: 60px;
+        height: 60px;
+    
+}
+
+/* ESTILOS MY BEERS*/
+
+.header{
+    text-align: center;
+    padding-top: 80px;
+    background-color:#FFFAF0;
+    
+
+ }
+
+ .mybeers{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-around;
+}
+    
+    
+.one-beer{
+    text-align: center;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 20px;
+    width: 200px;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.one-beer img{
+    width: 100px;
+}
+
+
+/* ESTILOS FAQ*/
+
+
+.faq-style{
+  padding-top: 80px;
+  text-align: center;
+  background-color:#FFFAF0;
+  color: rgb(130, 81, 21);
+  
+}
+
+
+
+
+.jarro-image{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    width: 300px;
+    position: relative;
+    animation: bounceInfinite 1s infinite;
+    
+}
+
+@keyframes bounceInfinite {
+    0% {bottom: 0;}
+    50% {bottom: 25px; }
+    100% {bottom: 0;}
+  }
+
+.div{
+    background-color:#FFFAF0;
+    padding-top: 50px;
+}
+
+
+
+
+
+/* ESTILOS LOGIN*/
+
+
+.login-image {
+    background-image: url(./../imagenes/cheers.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 0;
+    width: 100%;
+    height: 35em;
+    position: relative;
+    opacity: 1;
+    
+}
+.login-style{
+    text-align: center;
+    padding-top: 200px;
+    background-color:#FFFAF0
+   
+}
+
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    width: 200px;
+    margin: 0 auto;
+    
+    }
+    
+    #login-form input{
+        text-align: center;
+        
+    }
+
+    .login-h2{
+        color: black;
+        text-align: center;
+        font-weight: bold;
+        font-family: "Courier New", Courier, monospace;
+
+    }
+
+
+
+
+/* ESTILOS SIGNUP*/
+
+.signup-style{
+    text-align: center;
+    padding-top: 12em;
+    
+
+}
+
+#signup-form {
+display: flex;
+flex-direction: column;
+border: none;
+width: 15em;
+margin: 0 auto;
+
+
+}
+
+
+.button-style{
+    background-color: rgb(238, 178, 27);
+    border-style: solid;
+    font-weight: bold;
+    fon
+}  
+
+
+
+#signup-form input{
+    text-align: center;
+    width: 15em;
+}
+
+
+
+
+.signup-image {
+    background-image: url(./../imagenes/cerveza.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 0;
+    width: 100%;
+    height: 35em;
+    position: relative;
+    opacity: 1;
+    
+}
+
+.style-h2{
+    color: black;
+    text-align: center;
+    padding-top: 0.5em;
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 2.5em;
+    
+
+}
+
+.message-container{
+    font-weight: bold;
+    background-color: rgb(238, 128, 108);
+    display: flex;
+    flex-direction: column;
+    border: none;
+    width: 20em;
+    margin: 0 auto;
+    font-weight: bold;
+
+}
