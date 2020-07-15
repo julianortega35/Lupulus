@@ -4,27 +4,26 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  
+ <link rel="shortcut icon" type="image/png" href="images/title-img.png">
 
-  <link rel="shortcut icon" type="image/png" href="images/title-img.png">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
-
+ 
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+ 
   <title>Lupulus</title>
-  <link rel="shortcut icon" href="./../imagenes/fotoanimación.svg" />
-  <link rel="stylesheet" href="./../css/style.css" />
+  <link rel="shortcut icon" href="./imagenes/fotoanimación.svg" />
+  <link rel="stylesheet" href="./css/style.css" />
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
   </style>
 </head>
 
 
-<body class="login-style login-image">
+<body>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
     <a href="#" class="navbar-brand"><i class="fas fa-beer fa-2x" style="color:grey"></i></a>
@@ -46,39 +45,45 @@
   </nav>
 
 
+  
+  <div class="faq-style">
 
-  <div>
-    <header>
-      <h2 class="login-h2">Login</h2>
-    </header>
-    
-    
-      
-      <form id="login-form">
-      
-     
-       <label for="mail">
-        <input type="text" id="email" placeholder="Email" name="mail" value="">
-       </label>
+  <header>
+    <h2 class="title-style">Frequently asked questions</h2>
+  
 
-
-        <label for="password">
-          <input type="password" id="password" placeholder="Password" name="password" value="">
-        </label>
-      
-        <button type="submit" id="login-button"> Login </button>
-      
-      </form>
-
-      <div class ="message-container">
-
-      </div>
+  </header>
+  <br>
 
 
 
+  <img class="jarro-image faq-style" src="./imagenes/jarro.jpeg" alt="jarro cerveza">
 
-  </div>
+</div>
+    <section1>
+      <div class="div">
+      <h2 class="subtitle-style">Top 5 questions people ask about beer</h2><br>
+      <ol class="list">
+        <li class="question"> When was beer invented? <br>
+          Beer can trace its roots as far back as Mesopotamia – 5th millennium B.C. or older.</li><br>
+        <li> How do I make beer? <br>
+          With hops, barley and patience!</li><br>
+        <li> How many calories are in a beer? <br>
+          We could go all day on this one, but a couple examples include: Guinness: 153; Heineken: 150; Corona: 148.
+        </li><br>
+        <li> Which country drinks the most beer? <br>
+          the Czech Republic consumes 156 liters of beer per capita, more than any other country, followed by Ireland
+          and Germany. </li><br>
+        <li> How long does beer stay in your system?<br>
+          On average, 6 – 10 hours.</li><br>
+        </ol>
+    </div>
+  
+    </section1>
 
+    <!-- agregar imagen con animación css-->
+
+  
 
 
 
@@ -95,9 +100,7 @@
   </script>
 
 
-  <script src= "./../js/login.js"></script>
-  <script src= "./../js/database.js"></script>
- 
+  
 
 
 </body>

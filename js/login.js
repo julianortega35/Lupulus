@@ -40,7 +40,7 @@ class Login {
         const message = document.createElement("p");
 
         if (user){
-            message.innerHTML = `Hola, ${user.name}`;
+            message.innerHTML = `Hello, ${user.name}! Welcome to Lupulus`;
             message.classList.add("correct-message");
         } else {
             message.innerHTML = "Wrong email or password"
@@ -52,7 +52,7 @@ class Login {
 
     }
     redirect = () => {
-        setTimeout ( ()=> location.assign('index.html'), 2000);
+        setTimeout ( ()=> location.assign('index.html'), 3000);
     }
 }
 
