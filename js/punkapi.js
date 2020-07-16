@@ -45,8 +45,7 @@ function getRandomBeers() {
       })
     })
   
-  //window.scrollTo (0, document.body.scrollHeight)
-  console.log(document.body.scrollHeight)
+  
 }  
 getRandomBeers();
 
