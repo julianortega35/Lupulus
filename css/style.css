@@ -23,7 +23,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 
 
 }
@@ -32,10 +32,6 @@
 
     font-size: 5em;
     color: #ff8000;
-    /*top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    */
     text-align: center;
     font-family: 'Oleo Script', cursive;
     font-weight: bolder;
@@ -46,10 +42,18 @@
 
 
 @keyframes bounceInfinite {
-    0% {bottom: 0;}
-    50% {bottom: 25px; }
-    100% {bottom: 0;}
-  }
+    0% {
+        bottom: 0;
+    }
+
+    50% {
+        bottom: 25px;
+    }
+
+    100% {
+        bottom: 0;
+    }
+}
 
 
 .description {
@@ -95,7 +99,6 @@
     text-align: center;
     padding-top: 80px;
     background-color: #FFFAF0;
-    ;
     padding-right: 100px;
     padding-left: 100px;
 }
@@ -115,7 +118,6 @@
 }
 
 
-
 .mybeers {
     display: flex;
     flex-direction: row;
@@ -124,6 +126,7 @@
     align-content: space-around;
     background-color: #ff8205;
     padding-top: 10px;
+
 }
 
 
@@ -133,34 +136,36 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 10px 20px;
+    margin: 30px 20px;
     width: 250px;
     align-items: center;
     padding: 20px 20px;
     background-color: #fff4e1;
-
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
 
 }
 
 .one-beer img {
     width: 100px;
+    height: 300px;
 }
 
 .get-beers-button {
-    background-color: #4CAF50;
+    background-color: #ece68c;
     border: none;
-    color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 18px;
     margin: 4px 2px;
     cursor: pointer;
     position: relative;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    border-radius: 10px;
 
 
 }
@@ -180,7 +185,7 @@
     color: rgb(130, 81, 21);
     position: relative;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   
+
 
 }
 
@@ -192,9 +197,10 @@
     margin: 0 auto;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
-  
+
 
 }
+
 
 
 
@@ -209,20 +215,20 @@
 }
 
 
-.faq-title{
+.faq-title {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
     margin-top: 40px;
     margin-bottom: 30px;
+   padding-left: 100px;
+   padding-right: 100px;
 }
 
-.p-faq{
+.p-faq {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 
 }
-
-
 
 
 
@@ -230,7 +236,6 @@
 
 
 /* ESTILOS LOGIN*/
-
 
 
 
@@ -250,9 +255,18 @@
 
 }
 
+.login-h2 {
+    
+    color: black;
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 3em;
+
+}
+
 .login-style {
     text-align: center;
-    padding-top: 200px;
+    padding-top: 160px;
     background-color: #FFFAF0
 }
 
@@ -271,29 +285,26 @@
 
 }
 
-.login-h2 {
-    color: black;
-    text-align: center;
-    padding-top: 0.5em;
-    font-weight: bold;
-    font-family: "Courier New", Courier, monospace;
-    font-size: 2.5em;
 
-}
 
 .button-style {
     background-color: #ff8205;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 15px 28px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 18px;
     margin: 4px 2px;
     cursor: pointer;
+    
 
 }
+
+
+
+
 
 
 
@@ -302,7 +313,7 @@
 
 .signup-style {
     text-align: center;
-    padding-top: 12em;
+    padding-top: 10em;
 
 
 }
@@ -319,16 +330,17 @@
 
 
 .button-style {
-    background-color: #ff8205;
-    border: none;
+    outline: 0;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    border-radius: 3px;
     color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 18px;
+    transition: 0.3s ease;
     cursor: pointer;
+
+
 }
 
 
@@ -358,19 +370,28 @@
     padding-top: 0.5em;
     font-weight: bold;
     font-family: "Courier New", Courier, monospace;
-    font-size: 2.5em;
+    font-size: 3em;
 
 
 }
 
 .message-container {
     font-weight: bold;
-    background-color: rgb(233, 191, 183);
+    background-color: rgb(238, 136, 116);
     display: flex;
     flex-direction: column;
     border: none;
-    width: 20em;
+    width: 400px;
+    
+
     margin: 0 auto;
 
 
+}
+
+.message-container p{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 0 auto
+    
 }
