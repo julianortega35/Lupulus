@@ -80,6 +80,7 @@
     background-color: #f9a600;
     border-radius: 10%;
 
+
 }
 
 
@@ -191,6 +192,7 @@
     margin: 0 auto;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
+  
 
 }
 
@@ -207,35 +209,19 @@
 }
 
 
+.faq-title{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
 
+.p-faq{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
-
-.div {
-
-    padding-top: 100px;
-    height: 525px;
-    
 
 }
 
-
-/*
-.jarro-image{
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 10px;
-    width: 250px;
-    position: relative;
-    animation: bounceInfinite 1s infinite;
-    
-}
-
-@keyframes bounceInfinite {
-    0% {bottom: 0;}
-    50% {bottom: 25px; }
-    100% {bottom: 0;}
-  }
-*/
 
 
 
