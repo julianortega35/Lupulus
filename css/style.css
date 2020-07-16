@@ -1,8 +1,8 @@
 * {
-   
+
     font-family: roboto;
-    
-   
+
+
 }
 
 
@@ -20,100 +20,113 @@
     width: 100%;
     height: 35em;
     position: relative;
-  
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+
+
 }
 
 .h1-home {
-    
-    font-size:140px;
-    color:#ff8000;
-    position: relative;
-    top: 50%;
+
+    font-size: 5em;
+    color: #ff8000;
+    /*top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    */
     text-align: center;
-    font-family:'Oleo Script', cursive;
+    font-family: 'Oleo Script', cursive;
     font-weight: bolder;
-    
-
-    
-    
- 
+    position: relative;
+    animation: bounceInfinite 1s infinite;
 }
 
+
+
+@keyframes bounceInfinite {
+    0% {bottom: 0;}
+    50% {bottom: 25px; }
+    100% {bottom: 0;}
+  }
+
+
 .description {
-text-align: center;
-background-color: #FFFAF0;
-padding-bottom: 10px;
+    text-align: center;
+    background-color: #FFFAF0;
+    padding-bottom: 10px;
 
 }
 
 .section3 {
-    
+
     display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-	align-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
     text-align: center;
     background-color: #FFFAF0;
-    
-    
-    }
+
+
+}
 
 
 .logo-div-home {
-        width: 60px;
-        height: 60px;
-        background-color: #f9a600;
-    
+    width: 70px;
+    height: 70px;
+    background-color: #f9a600;
+    border-radius: 10%;
+
 }
+
 
 /* ESTILOS MY BEERS*/
 
-.body-style{
+.body-style {
     background-color: #ff8205;
 
 }
 
-.header{
+.header {
     text-align: center;
     padding-top: 80px;
-    background-color: #FFFAF0;;
+    background-color: #FFFAF0;
+    ;
     padding-right: 100px;
-    padding-left:100px;    
+    padding-left: 100px;
 }
 
 
-.title{
-font-family: 'Courier New', Courier, monospace;
-font-weight: bolder;
-font-size: 50px;
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 50px;
 }
 
 .paragraph {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
-    
-    
+
+
 }
 
 
 
- .mybeers{
+.mybeers {
     display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     align-content: space-around;
     background-color: #ff8205;
     padding-top: 10px;
 }
-    
-    
-.one-beer{
+
+
+.one-beer {
     text-align: center;
     border: 1px solid #ebcf9f;
     display: flex;
@@ -124,60 +137,89 @@ font-size: 50px;
     align-items: center;
     padding: 20px 20px;
     background-color: #fff4e1;
-     
+
+
 }
 
-.one-beer img{
+.one-beer img {
     width: 100px;
 }
 
-.style-button{
-    background-color:#ff8205;
-    border-style: solid;
-    font-weight: bold;
-    align-items: center;
-    
-}  
+.get-beers-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+
+}
+
+
 
 
 
 /* ESTILOS FAQ*/
 
 
-.faq-style{
-  padding-top: 80px;
-  text-align: center;
-  background-color:#FFFAF0;
-  color: rgb(130, 81, 21);
-  
-  
-}
+.faq-style {
 
-.title-style{
-font-family: 'Varela Round', sans-serif;
-font-weight: bolder;
-font-size: 40px;
+    padding-bottom: 15px;
+    text-align: center;
+    background-color: #FFFAF0;
+    color: rgb(130, 81, 21);
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
 
 }
 
-.subtitle-style{
-font-family: 'Varela Round', sans-serif;
-font-size: 30px;
-font-weight: bolder;
-text-align: center;
+.w3-container {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    margin: 0 auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
 
 }
 
-.list{
-    list-style: none;
-}
-.question{
+
+
+
+
+
+.title-style {
+    font-family: 'Varela Round', sans-serif;
     font-weight: bolder;
-    font-style: italic;
+    font-size: 40px;
 
 }
 
 
+
+
+
+.div {
+
+    padding-top: 100px;
+    height: 525px;
+    
+
+}
+
+
+/*
 .jarro-image{
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -193,19 +235,19 @@ text-align: center;
     50% {bottom: 25px; }
     100% {bottom: 0;}
   }
+*/
 
-.div{
-    background-color: #ff8205;
-    padding-top: 50px;
-    height: 100vh;
-  
-}
+
 
 
 
 
 
 /* ESTILOS LOGIN*/
+
+
+
+
 
 
 .login-image {
@@ -218,13 +260,14 @@ text-align: center;
     height: 35em;
     position: relative;
     opacity: 1;
-    
+    height: 100vh;
+
 }
-.login-style{
+
+.login-style {
     text-align: center;
     padding-top: 200px;
-    background-color:#FFFAF0
-   
+    background-color: #FFFAF0
 }
 
 
@@ -234,63 +277,77 @@ text-align: center;
     border: none;
     width: 200px;
     margin: 0 auto;
-    
-    }
-    
-    #login-form input{
-        text-align: center;
-        
-    }
 
-    .login-h2{
-        color: black;
-        text-align: center;
-        padding-top: 0.5em;
-        font-weight: bold;
-        font-family: "Courier New", Courier, monospace;
-        font-size: 2.5em;
-        
-    }
+}
 
-    .button-style{
-        background-color: rgb(238, 178, 27);
-        border-style: solid;
-        font-weight: bold;
-        fon
-    }  
-    
+#login-form input {
+    text-align: center;
+
+}
+
+.login-h2 {
+    color: black;
+    text-align: center;
+    padding-top: 0.5em;
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 2.5em;
+
+}
+
+.button-style {
+    background-color: #ff8205;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
 
 
 
 /* ESTILOS SIGNUP*/
 
-.signup-style{
+.signup-style {
     text-align: center;
     padding-top: 12em;
-    
+
 
 }
 
 #signup-form {
-display: flex;
-flex-direction: column;
-border: none;
-width: 15em;
-margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    width: 15em;
+    margin: 0 auto;
 
 
 }
 
 
-.button-style{
-    background-color: rgb(238, 178, 27);
-    border-style: solid;
-    font-weight: bold;
-}  
+.button-style {
+    background-color: #ff8205;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
 
 
 
-#signup-form input{
+#signup-form input {
     text-align: center;
     width: 15em;
 }
@@ -306,25 +363,21 @@ margin: 0 auto;
     margin: 0 0;
     width: 100%;
     height: 100vh;
-    
-   
-    
 
-    
 }
 
-.style-h2{
+.style-h2 {
     color: black;
     text-align: center;
     padding-top: 0.5em;
     font-weight: bold;
     font-family: "Courier New", Courier, monospace;
     font-size: 2.5em;
-    
+
 
 }
 
-.message-container{
+.message-container {
     font-weight: bold;
     background-color: rgb(233, 191, 183);
     display: flex;
@@ -332,7 +385,6 @@ margin: 0 auto;
     border: none;
     width: 20em;
     margin: 0 auto;
-  
+
 
 }
-

@@ -1,11 +1,15 @@
 'use strict';
-
+window.addEventListener ("resize", () => {
+  window.scrollTo (0, document.body.scrollHeight)
+})
 
 function getRandomBeers() {
 
 
   const beerlist = document.querySelector(".mybeers");
-  beerlist.innerHTML = "";
+ beerlist.innerHTML = "";
+  
+ 
 
   fetch("https://api.punkapi.com/v2/beers")
     .then((response) => {
@@ -40,11 +44,15 @@ function getRandomBeers() {
         beerlist.appendChild(div);
       })
     })
-}
+  
+  //window.scrollTo (0, document.body.scrollHeight)
+  console.log(document.body.scrollHeight)
+}  
 getRandomBeers();
 
 
 var button = document.createElement("button");
+button.classList.add("get-beers-button")
 button.innerHTML = "Get beers!";
 
 
@@ -53,3 +61,4 @@ body.appendChild(button);
 
 
 button.addEventListener("click", getRandomBeers);
+
