@@ -109,8 +109,10 @@ h2{
     text-align: center;
     padding-top: 80px;
     background-color: #FFFAF0;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+ 
 }
 
 
@@ -118,6 +120,7 @@ h2{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
     font-size: 50px;
+    text-align: center;
 }
 
 .paragraph {
@@ -200,7 +203,7 @@ h2{
 }
 
 .w3-container {
-    width: 600px;
+    width:450px;
     display: flex;
     flex-direction: column;
     border: none;
