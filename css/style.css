@@ -204,13 +204,16 @@ h2{
 }
 
 .w3-container {
-    width:450px;
+    
     display: flex;
     flex-direction: column;
     border: none;
     margin: 0 auto;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
+    width: 400px;
+    
+
 
 
 }
@@ -242,6 +245,12 @@ h2{
 
 .p-faq {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    position: relative;
+    padding-right: 25px;
+
+    
+   
 
 
 }
