@@ -19,7 +19,7 @@ function getRandomBeers() {
       console.log(data)
       let randomBeers = []
 
-      for (let i = 0; i < 2; i++) {
+      for (let i = 0; i < 1; i++) {
 
         const randomIndex = Math.floor((Math.random() * data.length));
 
