@@ -122,6 +122,7 @@ h2{
 .paragraph {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
+    padding: 15px 10px;
 
 }
 
@@ -133,7 +134,8 @@ h2{
     justify-content: center;
     align-content: space-around;
     background-color: #ff8205;
-    padding-top: 10px;
+    padding-top: 50px ;
+ 
 
 }
 
@@ -159,7 +161,7 @@ h2{
 }
 
 .get-beers-button {
-    background-color: #ece68c;
+    background-color:#fcbf42;
     border: none;
     padding: 15px 32px;
     text-align: center;
@@ -173,6 +175,10 @@ h2{
     flex-direction: column;
     margin: 0 auto;
     border-radius: 10px;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 80px;
 
 }
 
@@ -190,15 +196,17 @@ h2{
     width: 100%;
 }
 
+
+
 .w3-container {
     
+ 
     display: flex;
     flex-direction: column;
     border: none;
-    margin: 0 auto;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-    width: 400px;
+    font-size: 19px;
+ 
     
 }
 
@@ -223,9 +231,8 @@ h2{
 .p-faq {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-    position: relative;
-    padding-right: 25px;
 
+   
 }
 
 /* ESTILOS LOGIN*/
@@ -292,7 +299,7 @@ h2{
 
 .signup-style {
     text-align: center;
-    padding-top: 10em;
+    padding-top: 160px;
 
 }
 

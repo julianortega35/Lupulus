@@ -88,12 +88,9 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 
-
+<div class="faq-width">
 <h2 class="faq-title">Top 5 questions people ask about beer</h2>
 <div class="w3-container">
-    
-
-
     
     <button onclick="myFunction('Demo1')" class="w3-button w3-block  w3-orange w3-auto">
       When was beer invented?</button>
@@ -137,7 +134,7 @@
     
     <script>
     function myFunction(id) {
-      var x = document.getElementById(id);
+    const x = document.getElementById(id);
       if (x.className.indexOf("w3-show") == -1) {
         x.className += " w3-show";
       } else { 
@@ -146,7 +143,7 @@
     }
     </script>
     
-
+  </div>
   </section>
 
 
