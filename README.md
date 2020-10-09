@@ -78,7 +78,7 @@ https://trello.com/b/DDmfRjRV/julianortega-proyecto1
 
 #### GitHub Repo
 
-[https://github.com/julianortega35/Lupulus](https://github.com/julianortega35/Lupulus)
+https://julianortega35.github.io/Lupulus/
 
 
 
