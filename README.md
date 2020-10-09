@@ -8,7 +8,7 @@
 
 
 
-**LUPUS** was developed using JavaScript as part of the [Ironhack](https://www.ironhack.com/) developer bootcamp (WebDev-FT-062020) using the API [Punkapi](https://punkapi.com/documentation/v2)
+**LUPUS** was developed using JavaScript as part of the [Ironhack](https://www.ironhack.com/) web developer bootcamp (WebDev-FT-062020) using the API [Punkapi](https://punkapi.com/documentation/v2)
 
 ------
 
@@ -35,13 +35,6 @@ The **MVP** has the following components:
 - Scoring sysem to pic the best beer out of 12!
 - Share beers info and recomendations with friends.
 
-------
-
-## Wireframes
-
-Wireformes were made with [Balsamiq](https://balsamiq.com/wireframes/)
-
-Click [here](https://balsamiq.cloud/sm9v0wu/p1cd9k9/r2278?f=N4IgUiBcCMA0IDkpxAYWfAMhkAhHAsjgFo4DSUA2gLoC%2BQA%3D) to view the wireframe of the Lupulus project!
 
 ------
 

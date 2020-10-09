@@ -46,6 +46,7 @@
 
 
 .description {
+    border: solid 2px red;
     text-align: center;
     background-color: #FFFAF0;
     padding: 50px 15px;
